@@ -1,0 +1,263 @@
+.section1{
+    height: 1700px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cdn.pixabay.com/photo/2013/06/09/19/09/dunes-123807_640.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.section2{
+    height: 1650px;
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sectionA{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sectionA h1{
+    font-size: 45px;
+    margin: 0px;
+    color: rgb(16, 16, 70);
+    margin-bottom: 8px;
+    font-family: "Abril Fatface", serif;
+}
+.sectionA p{
+    font-size: 20px;
+    margin: 0px;
+}
+.sectionB{
+    height: 1200px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sectionB1{
+    height: 790px;
+    width: 100%;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.container{
+    height: 680px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section11{
+    height: 600px;
+    width: 38%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.sectiona{
+    height: 100px;
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+
+}
+.redbtn{
+    height: 50px;
+    width: 200px;
+    /* border-radius: 12px; */
+    font-size:18px;
+    font-weight: 500;
+    background-color: rgb(243, 179, 61);
+}
+.greenbtn{
+    height: 50px;
+    width: 200px;
+    /* border-radius: 12px; */
+    font-size:18px;
+    font-weight: 500;
+    background-color: rgb(73, 245, 73);
+}
+.sectionb{
+    height: 360px;
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+
+}
+.sectionb form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+}
+.sectionb input{
+    height: 50px;
+    width: 400px;
+    /* border-radius: 10px; */
+    padding-left: 50px;
+    font-size:22px;
+    
+    font-weight: 500;
+    background-color: rgb(105, 240, 195);
+}
+::placeholder {
+    color: black;
+}
+.sectionb button{
+    height: 50px;
+    width: 200px;
+    /* border-radius: 12px; */
+    font-size:23px;
+    font-weight: 500;
+    background-color: rgb(49, 49, 250);
+    color: white;
+}
+.sectionba{
+    height: 30px;
+    width: 80%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+.sectionB2{
+    height: 495px;
+    width: 100%;
+    /* border: 4px solid green; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
+}
+.mapdesign{
+    height: 495px;
+    width: 100%;
+    /* border: 4px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.mapdesign iframe{
+    height: 490px;
+    width: 98%;
+    border: 3px solid black;
+
+    /* border: 4px solid green; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
+}
+
+.sectionC{
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.adress{
+    height: 300px;
+    width: 90%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.adresscard1{
+    height: 250px;
+    width: 30%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(238, 155, 183);
+    gap:15px;
+
+}
+.adresscard2{
+    height: 250px;
+    width: 30%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(130, 130, 250);
+    gap:15px;
+}
+h4{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px;
+}
+h5{
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0px;
+
+}
+.adresscard3{
+    height: 250px;
+    width: 30%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(111, 235, 235);
+    gap:15px;
+}
+.sectionD{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    background-color: cornflowerblue;
+}
+.iconssize{
+    height: 60px;
+    width: 50px;
+}

@@ -1,0 +1,68 @@
+nav{
+    background-color:rgb(5, 70, 82);
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    /* position: sticky;
+    top:0px; */
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.logo{
+    width: 20%;
+    height:80px;
+    /* border: 2px solid red; */
+    margin-left: 230px;
+    margin-top: 10px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.logo h1{
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid red; */
+    height: 50px;
+    color: rgb(16, 241, 136);
+
+    font-family: "Permanent Marker", cursive;
+}
+.logo span{
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid red; */
+    height: 30px;
+    font-family: "Permanent Marker", cursive;
+    color: rgb(16, 241, 136);
+    
+    
+}
+.content{
+    width: 90%;
+    height: 80px;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+.content ul  {
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.content ul li{
+    list-style: none;
+}
+.content ul li a{
+    padding-left: 47px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}

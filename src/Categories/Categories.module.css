@@ -1,0 +1,117 @@
+.section1{
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(214, 168, 193) , rgb(188, 202, 156) , rgb(141, 148, 111) );
+    margin-top: 40px;
+    border-radius: 30px;
+    border-bottom: 10px solid black;
+
+}
+
+.section2{
+    height: 550px;
+    width: 80%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionA{
+    height: 200px;
+    width: 90%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+
+.sectionA h1{
+  font-size: 40px;
+  margin-bottom: 30px;
+  border: 5px solid white;
+  padding: 10px 50px;
+  background-color: aqua;
+  border-radius: 50px;
+}
+
+.sectionA p{
+    margin: 0px;
+    font-size: 19px;
+    padding: 0px 90px;
+}
+
+.sectionB{
+    height: 350px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    height: 50px;
+    width: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.logo{
+    height: 42px;
+    width: 50px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: rgb(38, 194, 199);
+}
+
+.logo img {
+    height: 40px;
+    width: 50px;
+    border-radius: 50px;
+}
+.img{
+    height: 33px;
+    width: 40px;
+}
+
+.content{
+    height: 20px;
+    width: 120px;
+    /* border: 2px solid red; */
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

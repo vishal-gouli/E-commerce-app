@@ -1,0 +1,93 @@
+.body{
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(202, 109, 160);
+    color: white;
+    font-family: "Abril Fatface", serif;
+}
+.container{
+    width: 90%;
+    /* border: 2px solid yellow; */
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+    width: 50%;
+    /* border: 2px solid red; */
+    height: 390px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+    padding-left: 100px;
+}
+
+.container1 h1 {
+    font-size: 54px;
+    color: rgb(10, 10, 31);
+    margin: 0px;
+}
+.container1 h2 {
+    font-size: 40px;
+    margin: 0px;
+    
+}
+.container1 p {
+  
+    font-size: 25px;
+}
+.container2{
+    width: 50%;
+    /* border: 2px solid red; */
+    height: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+.container2 img{
+    width: 65%;
+    /* border: 2px solid red; */
+    height: 370px;
+}
+.butttons{
+    height: 70px;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    position: absolute;
+    margin-bottom: -500px;
+}
+.button{
+    width: 140px;
+    height: 55px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  color: black;
+}
+.button h3{
+    margin: 0px;
+}
+.button p{
+    margin: 0px;
+    font-size: 13px;
+}
+
+
